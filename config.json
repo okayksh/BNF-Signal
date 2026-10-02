@@ -1,0 +1,29 @@
+{
+  "_설명": "BNF 신호 설정. 숫자를 바꾸면 다음 실행부터 반영됩니다.",
+  "rules": {
+    "ema_len": 25,
+    "rsi_len": 14,
+    "rsi_oversold": 30,
+    "lookback_days": 10,
+    "stop_lookback_days": 10,
+    "max_hold_days": 20,
+    "regime_ma_len": 200
+  },
+  "thresholds": {
+    "_설명": "25EMA 대비 이격도 기준(음수, %). bull=지수가 200일선 위, bear=아래",
+    "large":    {"bull": -20, "bear": -25},
+    "volatile": {"bull": -30, "bear": -35}
+  },
+  "KR": {
+    "regime_index": "^KS11",
+    "kospi_top_n": 200,
+    "kosdaq_top_n": 150,
+    "extra": {}
+  },
+  "US": {
+    "regime_index": "QQQ",
+    "large": ["QQQ", "SPY", "DIA", "IWM", "SMH", "SOXX", "XLK", "XLF", "XLE", "ARKK"],
+    "volatile": ["TQQQ", "QLD", "SOXL", "UPRO", "SSO", "TECL", "FNGU", "LABU", "TNA", "NVDL", "TSLL", "CONL", "BITX", "MSTR", "COIN", "PLTR"],
+    "nasdaq100": ["AAPL","ABNB","ADBE","ADI","ADP","ADSK","AEP","AMAT","AMD","AMGN","AMZN","APP","ARM","ASML","AVGO","AXON","AZN","BIIB","BKNG","BKR","CCEP","CDNS","CDW","CEG","CHTR","CMCSA","COST","CPRT","CRWD","CSCO","CSGP","CSX","CTAS","CTSH","DASH","DDOG","DXCM","EA","EXC","FANG","FAST","FTNT","GEHC","GFS","GILD","GOOG","GOOGL","HON","IDXX","INTC","INTU","ISRG","KDP","KHC","KLAC","LIN","LRCX","LULU","MAR","MCHP","MDLZ","MELI","META","MNST","MRVL","MSFT","MU","NFLX","NVDA","NXPI","ODFL","ON","ORLY","PANW","PAYX","PCAR","PDD","PEP","PYPL","QCOM","REGN","ROP","ROST","SBUX","SHOP","SNPS","TEAM","TMUS","TSLA","TTD","TTWO","TXN","VRSK","VRTX","WBD","WDAY","XEL","ZS"]
+  }
+}
