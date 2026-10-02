@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BNF 신호판</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--fg:#1c2024;--mut:#69707a;--line:#e3e6ea;--buy:#0f9d58;--buybg:#e7f6ee;--wait:#d97706;--waitbg:#fdf3e2;--obs:#2563eb;--obsbg:#e8effd;--red:#d93025;--redbg:#fbe9e7}
+@media (prefers-color-scheme:dark){:root{--bg:#111316;--card:#1a1d21;--fg:#e8eaed;--mut:#9aa0a6;--line:#2c3036;--buybg:#12301f;--waitbg:#33260f;--obsbg:#16233d;--redbg:#3a1714}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:20px 16px 60px}
+h1{font-size:22px;margin:0 0 4px}.sub{color:var(--mut);margin:0 0 18px}
+.tabs{display:flex;gap:8px;margin-bottom:16px}.tabs button{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--fg);padding:8px 16px;border-radius:999px;font-size:14px;cursor:pointer}
+.tabs button.on{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:16px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}.kpi b{display:block;font-size:20px}.kpi span{color:var(--mut);font-size:12px}
+section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:14px}
+h2{font-size:15px;margin:0 0 10px;display:flex;align-items:center;gap:8px}
+.pill{font-size:11px;padding:2px 8px;border-radius:999px;font-weight:600}
+.p3{background:var(--buybg);color:var(--buy)}.p2{background:var(--waitbg);color:var(--wait)}.p1{background:var(--obsbg);color:var(--obs)}.pr{background:var(--redbg);color:var(--red)}
+.tbl{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:13px;white-space:nowrap}
+th,td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:right}th{color:var(--mut);font-weight:500;font-size:12px}
+td:first-child,th:first-child{text-align:left}.nm{font-weight:600}.tk{color:var(--mut);font-size:11px;margin-left:4px}
+.neg{color:var(--red)}.pos{color:var(--buy)}.empty{color:var(--mut);padding:6px 0}
+.rules{color:var(--mut);font-size:13px}.rules li{margin:2px 0}
+a{color:var(--obs)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>BNF 신호판</h1>
+  <p class="sub">25일 EMA 이격도 + RSI 과매도 + MACD 히스토그램 전환 · 장마감 후 하루 1회 자동 갱신</p>
+  <div class="tabs"><button data-m="kr" class="on">🇰🇷 한국</button><button data-m="us">🇺🇸 미국</button></div>
+  <div id="app"><p class="empty">불러오는 중…</p></div>
+  <section>
+    <h2>신호 규칙</h2>
+    <ol class="rules">
+      <li><span class="pill p1">관찰</span> 종가가 25EMA 대비 기준 이격도 이하 (대형주 −20/−25%, 고변동 −30/−35%, 상승장/하락장)</li>
+      <li><span class="pill p2">대기</span> 최근 10일 안에 이격도 기준 + RSI(14) ≤ 30 충족</li>
+      <li><span class="pill p3">매수</span> 위 조건 + 오늘 MACD 히스토그램이 0선 아래 → 위로 전환</li>
+      <li>청산: 손절 = 최근 10일 최저가 · 익절① = 25EMA 도달 · 익절② = 손익비 2R · 최대 20거래일</li>
+    </ol>
+    <p class="rules">학습·참고용 신호이며 투자 권유가 아닙니다. 상세: <a href="https://github.com/okayksh/BNF-Signal">GitHub</a></p>
+  </section>
+</div>
+<script>
+const $=s=>document.querySelector(s);
+const fx=(v,m)=>v==null?'-':(m==='KR'?Math.round(v).toLocaleString():(+v).toLocaleString(undefined,{maximumFractionDigits:2}));
+const pc=v=>v==null?'-':`<span class="${v<0?'neg':'pos'}">${v>0?'+':''}${(+v).toFixed(1)}%</span>`;
+const nm=r=>`<span class="nm">${r.name}</span>${r.name!==r.ticker?`<span class="tk">${r.ticker}</span>`:''}`;
+const stg={3:'<span class="pill p3">매수</span>',2:'<span class="pill p2">대기</span>',1:'<span class="pill p1">관찰</span>',0:''};
+const tbl=(head,rows)=>rows.length?`<div class="tbl"><table><tr>${head.map(h=>`<th>${h}</th>`).join('')}</tr>${rows.join('')}</table></div>`:'<p class="empty">없음</p>';
+async function load(m){
+  const app=$('#app');
+  try{
+    const d=await (await fetch(`data/${m}.json?t=${Date.now()}`)).json();const M=d.market;
+    const reg=d.regime==='bull'?'상승장':'하락장';
+    app.innerHTML=`
+    <div class="kpis">
+      <div class="kpi"><span>기준일</span><b>${d.asof}</b><span>갱신 ${d.updated}</span></div>
+      <div class="kpi"><span>시장 국면 (${d.index.ticker||''} vs 200일선)</span><b>${reg}</b><span>${fx(d.index.close,'US')} / ${fx(d.index.ma,'US')}</span></div>
+      <div class="kpi"><span>이격 기준 (대형 / 고변동)</span><b>${d.thresholds.large}% / ${d.thresholds.volatile}%</b><span>감시 ${d.count}종목</span></div>
+      <div class="kpi"><span>매수 · 대기 · 추적</span><b>${d.buys.length} · ${d.watch.length} · ${d.positions.length}</b><span>&nbsp;</span></div>
+    </div>
+    <section><h2><span class="pill p3">매수 신호</span> 오늘</h2>${tbl(['종목','종가','이격최저','RSI최저','손절','익절① 25EMA','익절② 2R'],
+      d.buys.map(r=>`<tr><td>${nm(r)}</td><td>${fx(r.close,M)}</td><td>${pc(r.dev_min)}</td><td>${r.rsi_min}</td><td>${fx(r.stop,M)}</td><td>${fx(r.target_ema,M)}</td><td>${fx(r.target_2r,M)}</td></tr>`))}</section>
+    <section><h2>📌 추적 중 (신호 이후)</h2>${tbl(['종목','진입일','진입가','현재가','수익률','손절','익절① 25EMA','경과일'],
+      d.positions.map(p=>`<tr><td>${nm(p)}</td><td>${p.entry_date}</td><td>${fx(p.entry,M)}</td><td>${fx(p.last_close??p.entry,M)}</td><td>${pc(p.ret_now??0)}</td><td>${fx(p.stop,M)}</td><td>${fx(p.target_ema,M)}</td><td>${p.days||0}</td></tr>`))}</section>
+    <section><h2><span class="pill p2">대기</span> MACD 전환 대기</h2>${tbl(['종목','종가','이격','기준','RSI','MACD히스토'],
+      d.watch.map(r=>`<tr><td>${nm(r)}</td><td>${fx(r.close,M)}</td><td>${pc(r.dev)}</td><td>${r.th}%</td><td>${r.rsi}</td><td>${(+r.hist).toLocaleString(undefined,{maximumFractionDigits:2})}</td></tr>`))}</section>
+    <section><h2>이격 상위 종목 (25EMA 대비 −10% 이하)</h2>${tbl(['종목','단계','종가','이격','10일 최저','기준','RSI','거래량비'],
+      d.candidates.map(r=>`<tr><td>${nm(r)}</td><td>${stg[r.stage]}</td><td>${fx(r.close,M)}</td><td>${pc(r.dev)}</td><td>${pc(r.dev_min)}</td><td>${r.th}%</td><td>${r.rsi}</td><td>${r.vol_ratio??'-'}</td></tr>`))}</section>
+    <section><h2>지난 신호 결과</h2>${tbl(['종목','진입일','청산일','결과','수익률'],
+      d.history.map(h=>`<tr><td>${nm(h)}</td><td>${h.entry_date}</td><td>${h.exit_date}</td><td>${h.result}</td><td>${pc(h.ret)}</td></tr>`))}</section>`;
+  }catch(e){app.innerHTML='<p class="empty">아직 데이터가 없습니다. 첫 실행 후 표시됩니다.</p>'}
+}
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('on'));b.classList.add('on');try{localStorage.setItem('bnf_m',b.dataset.m)}catch(e){}load(b.dataset.m)});
+let m='kr';try{m=localStorage.getItem('bnf_m')||'kr'}catch(e){}
+document.querySelector(`.tabs button[data-m="${m}"]`)?.click();
+</script>
+</body>
+</html>
