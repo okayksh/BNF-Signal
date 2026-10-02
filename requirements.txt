@@ -1,0 +1,6 @@
+yfinance>=0.2.50
+finance-datareader>=0.9.90
+pandas
+numpy
+requests
+lxml
