@@ -115,14 +115,19 @@ def telegram(text):
     token, chat = os.getenv("TELEGRAM_TOKEN"), os.getenv("TELEGRAM_CHAT_ID")
     if not token or not chat:
         print("[텔레그램 미설정] 메시지:\n" + text)
-        return
+        return False
     for part in [text[i:i + 3800] for i in range(0, len(text), 3800)]:
         try:
-            requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
-                          data={"chat_id": chat, "text": part, "parse_mode": "HTML",
-                                "disable_web_page_preview": "true"}, timeout=20)
+            r = requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
+                              data={"chat_id": chat, "text": part, "parse_mode": "HTML",
+                                    "disable_web_page_preview": "true"}, timeout=20)
+            if not r.ok:
+                print("텔레그램 전송 실패:", r.status_code, r.text[:200])
+                return False
         except Exception as e:  # noqa
             print("텔레그램 전송 실패:", e)
+            return False
+    return True
 
 
 # ---------------------------------------------------------------- 메인
@@ -272,8 +277,8 @@ def run(market):
                 f"  · {w['name']} ({w['ticker']}) 이격 {w['dev']}% RSI {w['rsi']}" for w in watch[:15])
         if positions:
             body += f"\n\n📌 추적 중 {len(positions)}건"
-        telegram(head + "\n" + body)
-        meta["last_alert_date"] = asof_s
+        if telegram(head + "\n" + body):
+            meta["last_alert_date"] = asof_s
 
     # 저장
     rows.sort(key=lambda r: r["dev"])
