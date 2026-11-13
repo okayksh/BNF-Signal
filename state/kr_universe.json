@@ -27,12 +27,12 @@
 "name": "삼성전기",
 "group": "large"
 },
-"005380.KS": {
-"name": "현대차",
-"group": "large"
-},
 "105560.KS": {
 "name": "KB금융",
+"group": "large"
+},
+"005380.KS": {
+"name": "현대차",
 "group": "large"
 },
 "032830.KS": {
@@ -63,12 +63,12 @@
 "name": "SK",
 "group": "large"
 },
-"012450.KS": {
-"name": "한화에어로스페이스",
-"group": "large"
-},
 "086790.KS": {
 "name": "하나금융지주",
+"group": "large"
+},
+"012450.KS": {
+"name": "한화에어로스페이스",
 "group": "large"
 },
 "012330.KS": {
@@ -87,12 +87,12 @@
 "name": "NAVER",
 "group": "large"
 },
-"000810.KS": {
-"name": "삼성화재",
-"group": "large"
-},
 "316140.KS": {
 "name": "우리금융지주",
+"group": "large"
+},
+"000810.KS": {
+"name": "삼성화재",
 "group": "large"
 },
 "066570.KS": {
@@ -103,20 +103,12 @@
 "name": "POSCO홀딩스",
 "group": "large"
 },
-"015760.KS": {
-"name": "한국전력",
-"group": "large"
-},
 "011200.KS": {
 "name": "HMM",
 "group": "large"
 },
 "138040.KS": {
 "name": "메리츠금융지주",
-"group": "large"
-},
-"010130.KS": {
-"name": "고려아연",
 "group": "large"
 },
 "010120.KS": {
@@ -127,16 +119,24 @@
 "name": "SK이노베이션",
 "group": "large"
 },
-"018260.KS": {
-"name": "삼성에스디에스",
-"group": "large"
-},
 "033780.KS": {
 "name": "KT&G",
 "group": "large"
 },
+"018260.KS": {
+"name": "삼성에스디에스",
+"group": "large"
+},
+"010130.KS": {
+"name": "고려아연",
+"group": "large"
+},
 "017670.KS": {
 "name": "SK텔레콤",
+"group": "large"
+},
+"015760.KS": {
+"name": "한국전력",
 "group": "large"
 },
 "042700.KS": {
@@ -147,12 +147,12 @@
 "name": "효성중공업",
 "group": "large"
 },
-"051910.KS": {
-"name": "LG화학",
-"group": "large"
-},
 "009540.KS": {
 "name": "HD한국조선해양",
+"group": "large"
+},
+"051910.KS": {
+"name": "LG화학",
 "group": "large"
 },
 "003670.KS": {
@@ -163,12 +163,12 @@
 "name": "현대글로비스",
 "group": "large"
 },
-"267260.KS": {
-"name": "HD현대일렉트릭",
-"group": "large"
-},
 "024110.KS": {
 "name": "기업은행",
+"group": "large"
+},
+"267260.KS": {
+"name": "HD현대일렉트릭",
 "group": "large"
 },
 "042660.KS": {
@@ -187,28 +187,28 @@
 "name": "한진칼",
 "group": "large"
 },
-"003550.KS": {
-"name": "LG",
-"group": "large"
-},
 "028050.KS": {
 "name": "삼성E&A",
+"group": "large"
+},
+"003550.KS": {
+"name": "LG",
 "group": "large"
 },
 "030200.KS": {
 "name": "KT",
 "group": "large"
 },
-"006800.KS": {
-"name": "미래에셋증권",
+"010950.KS": {
+"name": "S-Oil",
 "group": "large"
 },
 "003490.KS": {
 "name": "대한항공",
 "group": "large"
 },
-"010950.KS": {
-"name": "S-Oil",
+"006800.KS": {
+"name": "미래에셋증권",
 "group": "large"
 },
 "005830.KS": {
@@ -223,24 +223,20 @@
 "name": "한국항공우주",
 "group": "large"
 },
-"267250.KS": {
-"name": "HD현대",
-"group": "large"
-},
 "323410.KS": {
 "name": "카카오뱅크",
 "group": "large"
 },
-"003230.KS": {
-"name": "삼양식품",
-"group": "large"
-},
-"000150.KS": {
-"name": "두산",
+"267250.KS": {
+"name": "HD현대",
 "group": "large"
 },
 "000720.KS": {
 "name": "현대건설",
+"group": "large"
+},
+"003230.KS": {
+"name": "삼양식품",
 "group": "large"
 },
 "259960.KS": {
@@ -255,16 +251,16 @@
 "name": "포스코인터내셔널",
 "group": "large"
 },
+"000150.KS": {
+"name": "두산",
+"group": "large"
+},
 "005940.KS": {
 "name": "NH투자증권",
 "group": "large"
 },
-"064350.KS": {
-"name": "현대로템",
-"group": "large"
-},
-"079550.KS": {
-"name": "LIG디펜스앤에어로스페이스",
+"443060.KS": {
+"name": "HD현대마린솔루션",
 "group": "large"
 },
 "307950.KS": {
@@ -275,32 +271,36 @@
 "name": "GS",
 "group": "large"
 },
-"443060.KS": {
-"name": "HD현대마린솔루션",
+"064350.KS": {
+"name": "현대로템",
 "group": "large"
 },
 "161390.KS": {
 "name": "한국타이어앤테크놀로지",
 "group": "large"
 },
-"090430.KS": {
-"name": "아모레퍼시픽",
+"079550.KS": {
+"name": "LIG디펜스앤에어로스페이스",
 "group": "large"
 },
 "064400.KS": {
 "name": "LG씨엔에스",
 "group": "large"
 },
+"090430.KS": {
+"name": "아모레퍼시픽",
+"group": "large"
+},
 "021240.KS": {
 "name": "코웨이",
 "group": "large"
 },
-"326030.KS": {
-"name": "SK바이오팜",
-"group": "large"
-},
 "071050.KS": {
 "name": "한국금융지주",
+"group": "large"
+},
+"326030.KS": {
+"name": "SK바이오팜",
 "group": "large"
 },
 "011070.KS": {
@@ -311,16 +311,16 @@
 "name": "하이브",
 "group": "large"
 },
-"000500.KS": {
-"name": "가온전선",
-"group": "large"
-},
 "032640.KS": {
 "name": "LG유플러스",
 "group": "large"
 },
 "016360.KS": {
 "name": "삼성증권",
+"group": "large"
+},
+"000500.KS": {
+"name": "가온전선",
 "group": "large"
 },
 "007660.KS": {
@@ -331,12 +331,12 @@
 "name": "한미약품",
 "group": "large"
 },
-"000100.KS": {
-"name": "유한양행",
-"group": "large"
-},
 "006260.KS": {
 "name": "LS",
+"group": "large"
+},
+"000100.KS": {
+"name": "유한양행",
 "group": "large"
 },
 "009830.KS": {
@@ -347,24 +347,24 @@
 "name": "키움증권",
 "group": "large"
 },
-"005387.KS": {
-"name": "현대차2우B",
-"group": "large"
-},
 "241560.KS": {
 "name": "두산밥캣",
+"group": "large"
+},
+"005387.KS": {
+"name": "현대차2우B",
 "group": "large"
 },
 "175330.KS": {
 "name": "JB금융지주",
 "group": "large"
 },
-"029780.KS": {
-"name": "삼성카드",
-"group": "large"
-},
 "047040.KS": {
 "name": "대우건설",
+"group": "large"
+},
+"029780.KS": {
+"name": "삼성카드",
 "group": "large"
 },
 "088980.KS": {
@@ -379,24 +379,20 @@
 "name": "오리온",
 "group": "large"
 },
-"377300.KS": {
-"name": "카카오페이",
-"group": "large"
-},
 "267270.KS": {
 "name": "HD건설기계",
 "group": "large"
 },
-"000880.KS": {
-"name": "한화",
-"group": "large"
-},
-"036570.KS": {
-"name": "NC",
+"377300.KS": {
+"name": "카카오페이",
 "group": "large"
 },
 "138930.KS": {
 "name": "BNK금융지주",
+"group": "large"
+},
+"000880.KS": {
+"name": "한화",
 "group": "large"
 },
 "062040.KS": {
@@ -407,20 +403,20 @@
 "name": "현대제철",
 "group": "large"
 },
+"036570.KS": {
+"name": "NC",
+"group": "large"
+},
 "012750.KS": {
 "name": "에스원",
 "group": "large"
 },
-"008930.KS": {
-"name": "한미사이언스",
+"011790.KS": {
+"name": "SKC",
 "group": "large"
 },
 "010060.KS": {
 "name": "OCI홀딩스",
-"group": "large"
-},
-"011790.KS": {
-"name": "SKC",
 "group": "large"
 },
 "001440.KS": {
@@ -429,6 +425,10 @@
 },
 "000990.KS": {
 "name": "DB하이텍",
+"group": "large"
+},
+"008930.KS": {
+"name": "한미사이언스",
 "group": "large"
 },
 "034220.KS": {
@@ -443,16 +443,16 @@
 "name": "LG생활건강",
 "group": "large"
 },
-"088350.KS": {
-"name": "한화생명",
-"group": "large"
-},
 "454910.KS": {
 "name": "두산로보틱스",
 "group": "large"
 },
 "005385.KS": {
 "name": "현대차우",
+"group": "large"
+},
+"001040.KS": {
+"name": "CJ",
 "group": "large"
 },
 "022100.KS": {
@@ -463,32 +463,32 @@
 "name": "엘앤에프",
 "group": "large"
 },
-"001040.KS": {
-"name": "CJ",
-"group": "large"
-},
 "002380.KS": {
 "name": "KCC",
+"group": "large"
+},
+"088350.KS": {
+"name": "한화생명",
 "group": "large"
 },
 "192820.KS": {
 "name": "코스맥스",
 "group": "large"
 },
-"001450.KS": {
-"name": "현대해상",
+"018880.KS": {
+"name": "한온시스템",
 "group": "large"
 },
-"302440.KS": {
-"name": "SK바이오사이언스",
+"001450.KS": {
+"name": "현대해상",
 "group": "large"
 },
 "111770.KS": {
 "name": "영원무역",
 "group": "large"
 },
-"018880.KS": {
-"name": "한온시스템",
+"302440.KS": {
+"name": "SK바이오사이언스",
 "group": "large"
 },
 "035250.KS": {
@@ -503,12 +503,20 @@
 "name": "한전기술",
 "group": "large"
 },
-"251270.KS": {
-"name": "넷마블",
-"group": "large"
-},
 "026960.KS": {
 "name": "동서",
+"group": "large"
+},
+"103590.KS": {
+"name": "일진전기",
+"group": "large"
+},
+"017800.KS": {
+"name": "현대엘리베이터",
+"group": "large"
+},
+"006360.KS": {
+"name": "GS건설",
 "group": "large"
 },
 "009420.KS": {
@@ -519,68 +527,80 @@
 "name": "팬오션",
 "group": "large"
 },
+"251270.KS": {
+"name": "넷마블",
+"group": "large"
+},
 "097950.KS": {
 "name": "CJ제일제당",
-"group": "large"
-},
-"017800.KS": {
-"name": "현대엘리베이터",
-"group": "large"
-},
-"103590.KS": {
-"name": "일진전기",
-"group": "large"
-},
-"006360.KS": {
-"name": "GS건설",
-"group": "large"
-},
-"085620.KS": {
-"name": "미래에셋생명",
-"group": "large"
-},
-"161890.KS": {
-"name": "한국콜마",
-"group": "large"
-},
-"011780.KS": {
-"name": "금호석유화학",
 "group": "large"
 },
 "139130.KS": {
 "name": "iM금융지주",
 "group": "large"
 },
+"011780.KS": {
+"name": "금호석유화학",
+"group": "large"
+},
+"161890.KS": {
+"name": "한국콜마",
+"group": "large"
+},
 "282330.KS": {
 "name": "BGF리테일",
-"group": "large"
-},
-"004370.KS": {
-"name": "농심",
-"group": "large"
-},
-"003690.KS": {
-"name": "코리안리",
-"group": "large"
-},
-"383220.KS": {
-"name": "F&F",
-"group": "large"
-},
-"007340.KS": {
-"name": "DN오토모티브",
-"group": "large"
-},
-"004170.KS": {
-"name": "신세계",
 "group": "large"
 },
 "457190.KS": {
 "name": "이수스페셜티케미컬",
 "group": "large"
 },
+"004170.KS": {
+"name": "신세계",
+"group": "large"
+},
+"003690.KS": {
+"name": "코리안리",
+"group": "large"
+},
+"085620.KS": {
+"name": "미래에셋생명",
+"group": "large"
+},
+"383220.KS": {
+"name": "F&F",
+"group": "large"
+},
+"004990.KS": {
+"name": "롯데지주",
+"group": "large"
+},
+"004370.KS": {
+"name": "농심",
+"group": "large"
+},
+"018670.KS": {
+"name": "SK가스",
+"group": "large"
+},
+"005850.KS": {
+"name": "에스엘",
+"group": "large"
+},
 "082740.KS": {
 "name": "한화엔진",
+"group": "large"
+},
+"023530.KS": {
+"name": "롯데쇼핑",
+"group": "large"
+},
+"007810.KS": {
+"name": "코리아써키트",
+"group": "large"
+},
+"279570.KS": {
+"name": "케이뱅크",
 "group": "large"
 },
 "181710.KS": {
@@ -591,60 +611,44 @@
 "name": "영원무역홀딩스",
 "group": "large"
 },
-"023530.KS": {
-"name": "롯데쇼핑",
-"group": "large"
-},
-"018670.KS": {
-"name": "SK가스",
-"group": "large"
-},
-"004990.KS": {
-"name": "롯데지주",
-"group": "large"
-},
-"005850.KS": {
-"name": "에스엘",
-"group": "large"
-},
-"007810.KS": {
-"name": "코리아써키트",
+"007340.KS": {
+"name": "DN오토모티브",
 "group": "large"
 },
 "089860.KS": {
 "name": "롯데렌탈",
 "group": "large"
 },
-"000240.KS": {
-"name": "한국앤컴퍼니",
-"group": "large"
-},
-"279570.KS": {
-"name": "케이뱅크",
+"489790.KS": {
+"name": "한화비전",
 "group": "large"
 },
 "375500.KS": {
 "name": "DL이앤씨",
 "group": "large"
 },
+"450080.KS": {
+"name": "에코프로머티",
+"group": "large"
+},
 "004800.KS": {
 "name": "효성",
 "group": "large"
 },
-"489790.KS": {
-"name": "한화비전",
+"000240.KS": {
+"name": "한국앤컴퍼니",
 "group": "large"
 },
 "002790.KS": {
 "name": "아모레퍼시픽홀딩스",
 "group": "large"
 },
-"011170.KS": {
-"name": "롯데케미칼",
+"081660.KS": {
+"name": "미스토홀딩스",
 "group": "large"
 },
-"450080.KS": {
-"name": "에코프로머티",
+"011170.KS": {
+"name": "롯데케미칼",
 "group": "large"
 },
 "020150.KS": {
@@ -655,24 +659,16 @@
 "name": "한솔케미칼",
 "group": "large"
 },
-"112610.KS": {
-"name": "씨에스윈드",
-"group": "large"
-},
 "005440.KS": {
 "name": "현대지에프홀딩스",
 "group": "large"
 },
-"081660.KS": {
-"name": "미스토홀딩스",
+"112610.KS": {
+"name": "씨에스윈드",
 "group": "large"
 },
 "030000.KS": {
 "name": "제일기획",
-"group": "large"
-},
-"336260.KS": {
-"name": "두산퓨얼셀",
 "group": "large"
 },
 "001720.KS": {
@@ -681,6 +677,10 @@
 },
 "007070.KS": {
 "name": "GS리테일",
+"group": "large"
+},
+"336260.KS": {
+"name": "두산퓨얼셀",
 "group": "large"
 },
 "069960.KS": {
@@ -695,32 +695,24 @@
 "name": "이마트",
 "group": "large"
 },
-"006280.KS": {
-"name": "녹십자",
+"204320.KS": {
+"name": "HL만도",
 "group": "large"
 },
 "051600.KS": {
 "name": "한전KPS",
 "group": "large"
 },
-"073240.KS": {
-"name": "금호타이어",
-"group": "large"
-},
-"204320.KS": {
-"name": "HL만도",
-"group": "large"
-},
-"483650.KS": {
-"name": "달바글로벌",
-"group": "large"
-},
 "294870.KS": {
 "name": "IPARK현대산업개발",
 "group": "large"
 },
-"462870.KS": {
-"name": "시프트업",
+"073240.KS": {
+"name": "금호타이어",
+"group": "large"
+},
+"006280.KS": {
+"name": "녹십자",
 "group": "large"
 },
 "000120.KS": {
@@ -731,72 +723,80 @@
 "name": "케이씨텍",
 "group": "large"
 },
-"103140.KS": {
-"name": "풍산",
+"462870.KS": {
+"name": "시프트업",
+"group": "large"
+},
+"483650.KS": {
+"name": "달바글로벌",
 "group": "large"
 },
 "006040.KS": {
 "name": "동원산업",
 "group": "large"
 },
-"439260.KS": {
-"name": "대한조선",
-"group": "large"
-},
-"001800.KS": {
-"name": "오리온홀딩스",
+"103140.KS": {
+"name": "풍산",
 "group": "large"
 },
 "395400.KS": {
 "name": "SK리츠",
 "group": "large"
 },
-"008770.KS": {
-"name": "호텔신라",
+"001800.KS": {
+"name": "오리온홀딩스",
 "group": "large"
 },
-"298020.KS": {
-"name": "효성티앤씨",
+"008770.KS": {
+"name": "호텔신라",
 "group": "large"
 },
 "001120.KS": {
 "name": "LX인터내셔널",
 "group": "large"
 },
-"011210.KS": {
-"name": "현대위아",
+"439260.KS": {
+"name": "대한조선",
 "group": "large"
 },
-"071970.KS": {
-"name": "HD현대마린엔진",
+"011210.KS": {
+"name": "현대위아",
 "group": "large"
 },
 "023590.KS": {
 "name": "다우기술",
 "group": "large"
 },
+"298020.KS": {
+"name": "효성티앤씨",
+"group": "large"
+},
 "229640.KS": {
 "name": "LS에코에너지",
 "group": "large"
 },
-"300720.KS": {
-"name": "한일시멘트",
-"group": "large"
-},
-"475150.KS": {
-"name": "SK이터닉스",
-"group": "large"
-},
-"006120.KS": {
-"name": "SK디스커버리",
+"071970.KS": {
+"name": "HD현대마린엔진",
 "group": "large"
 },
 "192080.KS": {
 "name": "더블유게임즈",
 "group": "large"
 },
+"006120.KS": {
+"name": "SK디스커버리",
+"group": "large"
+},
+"300720.KS": {
+"name": "한일시멘트",
+"group": "large"
+},
 "007310.KS": {
 "name": "오뚜기",
+"group": "large"
+},
+"415640.KS": {
+"name": "KB발해인프라",
 "group": "large"
 },
 "196170.KQ": {
@@ -835,12 +835,12 @@
 "name": "리노공업",
 "group": "volatile"
 },
-"028300.KQ": {
-"name": "HLB",
-"group": "volatile"
-},
 "240810.KQ": {
 "name": "원익IPS",
+"group": "volatile"
+},
+"028300.KQ": {
+"name": "HLB",
 "group": "volatile"
 },
 "108490.KQ": {
@@ -859,28 +859,32 @@
 "name": "ISC",
 "group": "volatile"
 },
-"131290.KQ": {
-"name": "티에스이",
-"group": "volatile"
-},
 "319660.KQ": {
 "name": "피에스케이",
+"group": "volatile"
+},
+"131290.KQ": {
+"name": "티에스이",
 "group": "volatile"
 },
 "214450.KQ": {
 "name": "파마리서치",
 "group": "volatile"
 },
-"145020.KQ": {
-"name": "휴젤",
-"group": "volatile"
-},
 "030530.KQ": {
 "name": "원익홀딩스",
 "group": "volatile"
 },
+"145020.KQ": {
+"name": "휴젤",
+"group": "volatile"
+},
 "141080.KQ": {
 "name": "리가켐바이오",
+"group": "volatile"
+},
+"357780.KQ": {
+"name": "솔브레인",
 "group": "volatile"
 },
 "298380.KQ": {
@@ -891,12 +895,8 @@
 "name": "펩트론",
 "group": "volatile"
 },
-"357780.KQ": {
-"name": "솔브레인",
-"group": "volatile"
-},
-"140410.KQ": {
-"name": "메지온",
+"064760.KQ": {
+"name": "티씨케이",
 "group": "volatile"
 },
 "080220.KQ": {
@@ -907,64 +907,64 @@
 "name": "보로노이",
 "group": "volatile"
 },
-"178320.KQ": {
-"name": "서진시스템",
-"group": "volatile"
-},
 "010170.KQ": {
 "name": "대한광통신",
 "group": "volatile"
 },
-"064760.KQ": {
-"name": "티씨케이",
+"140410.KQ": {
+"name": "메지온",
+"group": "volatile"
+},
+"178320.KQ": {
+"name": "서진시스템",
 "group": "volatile"
 },
 "067310.KQ": {
 "name": "하나마이크론",
 "group": "volatile"
 },
-"347850.KQ": {
-"name": "디앤디파마텍",
-"group": "volatile"
-},
-"263750.KQ": {
-"name": "펄어비스",
-"group": "volatile"
-},
 "005290.KQ": {
 "name": "동진쎄미켐",
+"group": "volatile"
+},
+"347850.KQ": {
+"name": "디앤디파마텍",
 "group": "volatile"
 },
 "226950.KQ": {
 "name": "올릭스",
 "group": "volatile"
 },
-"440110.KQ": {
-"name": "파두",
-"group": "volatile"
-},
 "084370.KQ": {
 "name": "유진테크",
-"group": "volatile"
-},
-"043260.KQ": {
-"name": "성호전자",
 "group": "volatile"
 },
 "068760.KQ": {
 "name": "셀트리온제약",
 "group": "volatile"
 },
+"440110.KQ": {
+"name": "파두",
+"group": "volatile"
+},
 "041510.KQ": {
 "name": "에스엠",
 "group": "volatile"
 },
-"095610.KQ": {
-"name": "테스",
+"043260.KQ": {
+"name": "성호전자",
 "group": "volatile"
 },
 "319400.KQ": {
 "name": "현대무벡스",
+"group": "volatile"
+},
+"263750.KQ": {
+"name": "펄어비스",
+"group": "volatile"
+},
+"095610.KQ": {
+"name": "테스",
 "group": "volatile"
 },
 "098460.KQ": {
@@ -975,20 +975,32 @@
 "name": "실리콘투",
 "group": "volatile"
 },
-"035900.KQ": {
-"name": "JYP Ent.",
+"058610.KQ": {
+"name": "에스피지",
 "group": "volatile"
 },
 "214150.KQ": {
 "name": "클래시스",
 "group": "volatile"
 },
-"237690.KQ": {
-"name": "에스티팜",
+"035900.KQ": {
+"name": "JYP Ent.",
+"group": "volatile"
+},
+"437730.KQ": {
+"name": "삼현",
 "group": "volatile"
 },
 "214370.KQ": {
 "name": "케어젠",
+"group": "volatile"
+},
+"237690.KQ": {
+"name": "에스티팜",
+"group": "volatile"
+},
+"036540.KQ": {
+"name": "SFA반도체",
 "group": "volatile"
 },
 "323280.KQ": {
@@ -999,24 +1011,16 @@
 "name": "파크시스템스",
 "group": "volatile"
 },
-"218410.KQ": {
-"name": "RFHIC",
-"group": "volatile"
-},
 "032820.KQ": {
 "name": "우리기술",
 "group": "volatile"
 },
-"058610.KQ": {
-"name": "에스피지",
-"group": "volatile"
-},
-"036540.KQ": {
-"name": "SFA반도체",
-"group": "volatile"
-},
 "131970.KQ": {
 "name": "두산테스나",
+"group": "volatile"
+},
+"218410.KQ": {
+"name": "RFHIC",
 "group": "volatile"
 },
 "089030.KQ": {
@@ -1031,10 +1035,6 @@
 "name": "대주전자재료",
 "group": "volatile"
 },
-"437730.KQ": {
-"name": "삼현",
-"group": "volatile"
-},
 "039200.KQ": {
 "name": "오스코텍",
 "group": "volatile"
@@ -1043,140 +1043,152 @@
 "name": "LS마린솔루션",
 "group": "volatile"
 },
-"290650.KQ": {
-"name": "엘앤씨바이오",
+"003380.KQ": {
+"name": "하림지주",
 "group": "volatile"
 },
 "053800.KQ": {
 "name": "안랩",
 "group": "volatile"
 },
+"290650.KQ": {
+"name": "엘앤씨바이오",
+"group": "volatile"
+},
 "293490.KQ": {
 "name": "카카오게임즈",
-"group": "volatile"
-},
-"003380.KQ": {
-"name": "하림지주",
-"group": "volatile"
-},
-"096530.KQ": {
-"name": "씨젠",
-"group": "volatile"
-},
-"204270.KQ": {
-"name": "제이앤티씨",
 "group": "volatile"
 },
 "083650.KQ": {
 "name": "비에이치아이",
 "group": "volatile"
 },
-"086450.KQ": {
-"name": "동국제약",
-"group": "volatile"
-},
-"950160.KQ": {
-"name": "코오롱티슈진",
-"group": "volatile"
-},
-"950260.KQ": {
-"name": "인제니아테라퓨틱스(Reg.S)",
-"group": "volatile"
-},
-"183300.KQ": {
-"name": "코미코",
-"group": "volatile"
-},
-"089970.KQ": {
-"name": "브이엠",
+"096530.KQ": {
+"name": "씨젠",
 "group": "volatile"
 },
 "425420.KQ": {
 "name": "티에프이",
 "group": "volatile"
 },
-"082920.KQ": {
-"name": "비츠로셀",
+"204270.KQ": {
+"name": "제이앤티씨",
 "group": "volatile"
 },
 "328130.KQ": {
 "name": "루닛",
 "group": "volatile"
 },
-"445680.KQ": {
-"name": "큐리옥스바이오시스템즈",
+"089970.KQ": {
+"name": "브이엠",
 "group": "volatile"
 },
-"195940.KQ": {
-"name": "HK이노엔",
-"group": "volatile"
-},
-"241710.KQ": {
-"name": "코스메카코리아",
-"group": "volatile"
-},
-"252990.KQ": {
-"name": "샘씨엔에스",
+"086450.KQ": {
+"name": "동국제약",
 "group": "volatile"
 },
 "232140.KQ": {
 "name": "와이씨",
 "group": "volatile"
 },
+"183300.KQ": {
+"name": "코미코",
+"group": "volatile"
+},
+"950160.KQ": {
+"name": "코오롱티슈진",
+"group": "volatile"
+},
 "356860.KQ": {
 "name": "티엘비",
 "group": "volatile"
 },
-"251970.KQ": {
-"name": "펌텍코리아",
+"195940.KQ": {
+"name": "HK이노엔",
 "group": "volatile"
 },
-"056190.KQ": {
-"name": "SFA",
+"252990.KQ": {
+"name": "샘씨엔에스",
 "group": "volatile"
 },
 "420770.KQ": {
 "name": "기가비스",
 "group": "volatile"
 },
-"121600.KQ": {
-"name": "나노신소재",
+"950260.KQ": {
+"name": "인제니아테라퓨틱스(Reg.S)",
 "group": "volatile"
 },
-"491000.KQ": {
-"name": "리브스메드",
+"241710.KQ": {
+"name": "코스메카코리아",
 "group": "volatile"
 },
 "166090.KQ": {
 "name": "하나머티리얼즈",
 "group": "volatile"
 },
+"082920.KQ": {
+"name": "비츠로셀",
+"group": "volatile"
+},
+"251970.KQ": {
+"name": "펌텍코리아",
+"group": "volatile"
+},
+"121600.KQ": {
+"name": "나노신소재",
+"group": "volatile"
+},
+"056190.KQ": {
+"name": "SFA",
+"group": "volatile"
+},
 "035760.KQ": {
 "name": "CJ ENM",
-"group": "volatile"
-},
-"093320.KQ": {
-"name": "케이아이엔엑스",
-"group": "volatile"
-},
-"347700.KQ": {
-"name": "스피어",
 "group": "volatile"
 },
 "065350.KQ": {
 "name": "신성델타테크",
 "group": "volatile"
 },
+"093320.KQ": {
+"name": "케이아이엔엑스",
+"group": "volatile"
+},
+"491000.KQ": {
+"name": "리브스메드",
+"group": "volatile"
+},
+"347700.KQ": {
+"name": "스피어",
+"group": "volatile"
+},
 "122870.KQ": {
 "name": "와이지엔터테인먼트",
+"group": "volatile"
+},
+"171090.KQ": {
+"name": "선익시스템",
 "group": "volatile"
 },
 "036830.KQ": {
 "name": "솔브레인홀딩스",
 "group": "volatile"
 },
+"092870.KQ": {
+"name": "엑시콘",
+"group": "volatile"
+},
 "101490.KQ": {
 "name": "에스앤에스텍",
+"group": "volatile"
+},
+"445680.KQ": {
+"name": "큐리옥스바이오시스템즈",
+"group": "volatile"
+},
+"031330.KQ": {
+"name": "에스에이엠티",
 "group": "volatile"
 },
 "032500.KQ": {
@@ -1187,44 +1199,36 @@
 "name": "GST",
 "group": "volatile"
 },
-"031330.KQ": {
-"name": "에스에이엠티",
-"group": "volatile"
-},
-"092870.KQ": {
-"name": "엑시콘",
-"group": "volatile"
-},
-"219130.KQ": {
-"name": "타이거일렉",
-"group": "volatile"
-},
-"171090.KQ": {
-"name": "선익시스템",
+"074600.KQ": {
+"name": "원익QnC",
 "group": "volatile"
 },
 "059090.KQ": {
 "name": "미코",
 "group": "volatile"
 },
-"253590.KQ": {
-"name": "네오셈",
-"group": "volatile"
-},
-"253450.KQ": {
-"name": "스튜디오드래곤",
-"group": "volatile"
-},
 "281740.KQ": {
 "name": "레이크머티리얼즈",
 "group": "volatile"
 },
-"417200.KQ": {
-"name": "LS머트리얼즈",
+"219130.KQ": {
+"name": "타이거일렉",
+"group": "volatile"
+},
+"253590.KQ": {
+"name": "네오셈",
+"group": "volatile"
+},
+"064290.KQ": {
+"name": "인텍플러스",
 "group": "volatile"
 },
 "085660.KQ": {
 "name": "차바이오텍",
+"group": "volatile"
+},
+"253450.KQ": {
+"name": "스튜디오드래곤",
 "group": "volatile"
 },
 "127120.KQ": {
@@ -1233,6 +1237,18 @@
 },
 "099320.KQ": {
 "name": "쎄트렉아이",
+"group": "volatile"
+},
+"417200.KQ": {
+"name": "LS머트리얼즈",
+"group": "volatile"
+},
+"100790.KQ": {
+"name": "미래에셋벤처투자",
+"group": "volatile"
+},
+"295310.KQ": {
+"name": "에이치브이엠",
 "group": "volatile"
 },
 "079940.KQ": {
@@ -1247,8 +1263,8 @@
 "name": "서부T&D",
 "group": "volatile"
 },
-"074600.KQ": {
-"name": "원익QnC",
+"468530.KQ": {
+"name": "프로티나",
 "group": "volatile"
 },
 "388720.KQ": {
@@ -1259,64 +1275,44 @@
 "name": "코미팜",
 "group": "volatile"
 },
-"468530.KQ": {
-"name": "프로티나",
-"group": "volatile"
-},
-"295310.KQ": {
-"name": "에이치브이엠",
-"group": "volatile"
-},
-"137400.KQ": {
-"name": "피엔티",
-"group": "volatile"
-},
-"100790.KQ": {
-"name": "미래에셋벤처투자",
-"group": "volatile"
-},
-"023160.KQ": {
-"name": "태광",
-"group": "volatile"
-},
-"064290.KQ": {
-"name": "인텍플러스",
-"group": "volatile"
-},
-"119850.KQ": {
-"name": "지엔씨에너지",
-"group": "volatile"
-},
-"115180.KQ": {
-"name": "큐리언트",
-"group": "volatile"
-},
-"144960.KQ": {
-"name": "뉴파워프라즈마",
+"053610.KQ": {
+"name": "프로텍",
 "group": "volatile"
 },
 "032190.KQ": {
 "name": "다우데이타",
 "group": "volatile"
 },
+"137400.KQ": {
+"name": "피엔티",
+"group": "volatile"
+},
+"144960.KQ": {
+"name": "뉴파워프라즈마",
+"group": "volatile"
+},
 "102710.KQ": {
 "name": "이엔에프테크놀로지",
 "group": "volatile"
 },
-"456160.KQ": {
-"name": "지투지바이오",
+"119850.KQ": {
+"name": "지엔씨에너지",
 "group": "volatile"
 },
 "161580.KQ": {
 "name": "필옵틱스",
 "group": "volatile"
 },
-"476830.KQ": {
-"name": "알지노믹스",
+"023160.KQ": {
+"name": "태광",
 "group": "volatile"
 },
 "038500.KQ": {
 "name": "삼표시멘트",
+"group": "volatile"
+},
+"048410.KQ": {
+"name": "현대바이오",
 "group": "volatile"
 },
 "033100.KQ": {
@@ -1327,12 +1323,24 @@
 "name": "코세스",
 "group": "volatile"
 },
+"456160.KQ": {
+"name": "지투지바이오",
+"group": "volatile"
+},
 "476060.KQ": {
 "name": "온코닉테라퓨틱스",
 "group": "volatile"
 },
+"476830.KQ": {
+"name": "알지노믹스",
+"group": "volatile"
+},
 "090710.KQ": {
 "name": "휴림로봇",
+"group": "volatile"
+},
+"014620.KQ": {
+"name": "성광벤드",
 "group": "volatile"
 },
 "222080.KQ": {
@@ -1343,32 +1351,16 @@
 "name": "에프에스티",
 "group": "volatile"
 },
+"189300.KQ": {
+"name": "인텔리안테크",
+"group": "volatile"
+},
+"115180.KQ": {
+"name": "큐리언트",
+"group": "volatile"
+},
 "290550.KQ": {
 "name": "디케이티",
-"group": "volatile"
-},
-"033790.KQ": {
-"name": "피노",
-"group": "volatile"
-},
-"053610.KQ": {
-"name": "프로텍",
-"group": "volatile"
-},
-"048410.KQ": {
-"name": "현대바이오",
-"group": "volatile"
-},
-"014620.KQ": {
-"name": "성광벤드",
-"group": "volatile"
-},
-"327260.KQ": {
-"name": "RF머트리얼즈",
-"group": "volatile"
-},
-"213420.KQ": {
-"name": "덕산네오룩스",
 "group": "volatile"
 },
 "458870.KQ": {
@@ -1379,24 +1371,32 @@
 "name": "예스티",
 "group": "volatile"
 },
-"041830.KQ": {
-"name": "인바디",
-"group": "volatile"
-},
-"189300.KQ": {
-"name": "인텔리안테크",
-"group": "volatile"
-},
 "090360.KQ": {
 "name": "로보스타",
 "group": "volatile"
 },
-"225570.KQ": {
-"name": "넥슨게임즈",
+"213420.KQ": {
+"name": "덕산네오룩스",
 "group": "volatile"
 },
 "466100.KQ": {
 "name": "클로봇",
+"group": "volatile"
+},
+"080580.KQ": {
+"name": "오킨스전자",
+"group": "volatile"
+},
+"033790.KQ": {
+"name": "피노",
+"group": "volatile"
+},
+"327260.KQ": {
+"name": "RF머트리얼즈",
+"group": "volatile"
+},
+"050890.KQ": {
+"name": "쏠리드",
 "group": "volatile"
 }
 }

@@ -4,10 +4,78 @@
   "name": "HD현대일렉트릭",
   "entry": 405000.0,
   "entry_date": "2026-11-12",
-  "last_checked": "2026-11-12",
+  "last_checked": "2026-11-13",
   "stop": 344736.5159,
   "target_ema": 475898.9624,
   "target_2r": 525526.9683,
+  "days": 0,
+  "last_close": 421000.0,
+  "ret_now": 3.95
+ },
+ {
+  "ticker": "011070.KS",
+  "name": "LG이노텍",
+  "entry": 287500.0,
+  "entry_date": "2026-11-13",
+  "last_checked": "2026-11-13",
+  "stop": 254500.0,
+  "target_ema": 362768.6139,
+  "target_2r": 353500.0,
+  "days": 0
+ },
+ {
+  "ticker": "007660.KS",
+  "name": "이수페타시스",
+  "entry": 84100.0,
+  "entry_date": "2026-11-13",
+  "last_checked": "2026-11-13",
+  "stop": 60000.0,
+  "target_ema": 87446.127,
+  "target_2r": 132300.0,
+  "days": 0
+ },
+ {
+  "ticker": "006260.KS",
+  "name": "LS",
+  "entry": 187500.0,
+  "entry_date": "2026-11-13",
+  "last_checked": "2026-11-13",
+  "stop": 166200.0,
+  "target_ema": 217451.968,
+  "target_2r": 230100.0,
+  "days": 0
+ },
+ {
+  "ticker": "047040.KS",
+  "name": "대우건설",
+  "entry": 11410.0,
+  "entry_date": "2026-11-13",
+  "last_checked": "2026-11-13",
+  "stop": 9800.0,
+  "target_ema": 13061.624,
+  "target_2r": 14630.0,
+  "days": 0
+ },
+ {
+  "ticker": "103590.KS",
+  "name": "일진전기",
+  "entry": 54300.0,
+  "entry_date": "2026-11-13",
+  "last_checked": "2026-11-13",
+  "stop": 41400.0,
+  "target_ema": 57571.0604,
+  "target_2r": 80100.0,
+  "days": 0
+ },
+ {
+  "ticker": "082740.KS",
+  "name": "한화엔진",
+  "entry": 26700.0,
+  "entry_date": "2026-11-13",
+  "last_checked": "2026-11-13",
+  "stop": 23250.0,
+  "target_ema": 32669.5234,
+  "target_2r": 33600.0,
   "days": 0
  }
 ]
