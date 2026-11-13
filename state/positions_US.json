@@ -1,1 +1,46 @@
-[]
+[
+ {
+  "ticker": "AMAT",
+  "name": "AMAT",
+  "entry": 395.08,
+  "entry_date": "2026-11-11",
+  "last_checked": "2026-11-11",
+  "stop": 316.95,
+  "target_ema": 402.2021,
+  "target_2r": 551.3399,
+  "days": 0
+ },
+ {
+  "ticker": "AMD",
+  "name": "AMD",
+  "entry": 552.9,
+  "entry_date": "2026-11-11",
+  "last_checked": "2026-11-11",
+  "stop": 402.1,
+  "target_ema": 525.2849,
+  "target_2r": 854.5001,
+  "days": 0
+ },
+ {
+  "ticker": "KLAC",
+  "name": "KLAC",
+  "entry": 161.01,
+  "entry_date": "2026-11-11",
+  "last_checked": "2026-11-11",
+  "stop": 128.17,
+  "target_ema": 160.565,
+  "target_2r": 226.69,
+  "days": 0
+ },
+ {
+  "ticker": "LRCX",
+  "name": "LRCX",
+  "entry": 235.88,
+  "entry_date": "2026-11-11",
+  "last_checked": "2026-11-11",
+  "stop": 184.24,
+  "target_ema": 247.6606,
+  "target_2r": 339.16,
+  "days": 0
+ }
+]
