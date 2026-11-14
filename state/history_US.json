@@ -1,1 +1,34 @@
-[]
+[
+ {
+  "ticker": "KLAC",
+  "name": "KLAC",
+  "entry": 161.01,
+  "entry_date": "2026-11-11",
+  "last_checked": "2026-11-13",
+  "stop": 128.17,
+  "target_ema": 160.565,
+  "target_2r": 226.69,
+  "days": 1,
+  "last_close": 152.32,
+  "exit": 160.3139,
+  "exit_date": "2026-11-12",
+  "result": "🟢 익절(25EMA 도달)",
+  "ret": -0.43
+ },
+ {
+  "ticker": "AMD",
+  "name": "AMD",
+  "entry": 552.9,
+  "entry_date": "2026-11-11",
+  "last_checked": "2026-11-13",
+  "stop": 402.1,
+  "target_ema": 525.2849,
+  "target_2r": 854.5001,
+  "days": 1,
+  "last_close": 534.06,
+  "exit": 529.9014,
+  "exit_date": "2026-11-12",
+  "result": "🟢 익절(25EMA 도달)",
+  "ret": -4.16
+ }
+]
