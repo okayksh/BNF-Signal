@@ -4,51 +4,62 @@
   "name": "AMAT",
   "entry": 395.08,
   "entry_date": "2026-11-11",
-  "last_checked": "2026-11-17",
+  "last_checked": "2026-11-18",
   "stop": 316.95,
   "target_ema": 402.2021,
   "target_2r": 551.3399,
-  "days": 4,
-  "last_close": 349.23,
-  "ret_now": -11.61
+  "days": 5,
+  "last_close": 352.3,
+  "ret_now": -10.83
  },
  {
   "ticker": "LRCX",
   "name": "LRCX",
   "entry": 235.88,
   "entry_date": "2026-11-11",
-  "last_checked": "2026-11-17",
+  "last_checked": "2026-11-18",
   "stop": 184.24,
   "target_ema": 247.6606,
   "target_2r": 339.16,
-  "days": 4,
-  "last_close": 210.69,
-  "ret_now": -10.68
+  "days": 5,
+  "last_close": 211.67,
+  "ret_now": -10.26
  },
  {
   "ticker": "ARM",
   "name": "ARM",
   "entry": 199.78,
   "entry_date": "2026-11-13",
-  "last_checked": "2026-11-17",
+  "last_checked": "2026-11-18",
   "stop": 163.13,
   "target_ema": 215.8255,
   "target_2r": 273.08,
-  "days": 2,
-  "last_close": 183.39,
-  "ret_now": -8.2
+  "days": 3,
+  "last_close": 182.76,
+  "ret_now": -8.52
  },
  {
   "ticker": "SOXL",
   "name": "SOXL",
   "entry": 58.32,
   "entry_date": "2026-11-13",
-  "last_checked": "2026-11-17",
+  "last_checked": "2026-11-18",
   "stop": 40.59,
   "target_ema": 82.6361,
   "target_2r": 93.78,
-  "days": 2,
-  "last_close": 49.07,
-  "ret_now": -15.86
+  "days": 3,
+  "last_close": 49.26,
+  "ret_now": -15.53
+ },
+ {
+  "ticker": "INTC",
+  "name": "INTC",
+  "entry": 54.67,
+  "entry_date": "2026-11-18",
+  "last_checked": "2026-11-18",
+  "stop": 51.51,
+  "target_ema": 71.261,
+  "target_2r": 60.99,
+  "days": 0
  }
 ]
