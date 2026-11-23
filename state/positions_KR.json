@@ -4,203 +4,207 @@
   "name": "HD현대일렉트릭",
   "entry": 405000.0,
   "entry_date": "2026-11-12",
-  "last_checked": "2026-11-20",
+  "last_checked": "2026-11-23",
   "stop": 344736.5159,
   "target_ema": 475898.9624,
   "target_2r": 525526.9683,
   "days": 0,
-  "last_close": 415500.0,
-  "ret_now": 2.59
+  "last_close": 386500.0,
+  "ret_now": -4.57
  },
  {
   "ticker": "011070.KS",
   "name": "LG이노텍",
   "entry": 287500.0,
   "entry_date": "2026-11-13",
-  "last_checked": "2026-11-20",
+  "last_checked": "2026-11-23",
   "stop": 254500.0,
   "target_ema": 362768.6139,
   "target_2r": 353500.0,
   "days": 0,
-  "last_close": 293000.0,
-  "ret_now": 1.91
+  "last_close": 267500.0,
+  "ret_now": -6.96
  },
  {
   "ticker": "007660.KS",
   "name": "이수페타시스",
   "entry": 84100.0,
   "entry_date": "2026-11-13",
-  "last_checked": "2026-11-20",
+  "last_checked": "2026-11-23",
   "stop": 60000.0,
   "target_ema": 87446.127,
   "target_2r": 132300.0,
   "days": 0,
-  "last_close": 83000.0,
-  "ret_now": -1.31
+  "last_close": 69600.0,
+  "ret_now": -17.24
  },
  {
   "ticker": "006260.KS",
   "name": "LS",
   "entry": 187500.0,
   "entry_date": "2026-11-13",
-  "last_checked": "2026-11-20",
+  "last_checked": "2026-11-23",
   "stop": 166200.0,
   "target_ema": 217451.968,
   "target_2r": 230100.0,
   "days": 0,
-  "last_close": 182000.0,
-  "ret_now": -2.93
+  "last_close": 168300.0,
+  "ret_now": -10.24
  },
  {
   "ticker": "047040.KS",
   "name": "대우건설",
   "entry": 11410.0,
   "entry_date": "2026-11-13",
-  "last_checked": "2026-11-20",
+  "last_checked": "2026-11-23",
   "stop": 9800.0,
   "target_ema": 13061.624,
   "target_2r": 14630.0,
   "days": 0,
-  "last_close": 11320.0,
-  "ret_now": -0.79
+  "last_close": 10460.0,
+  "ret_now": -8.33
  },
  {
   "ticker": "103590.KS",
   "name": "일진전기",
   "entry": 54300.0,
   "entry_date": "2026-11-13",
-  "last_checked": "2026-11-20",
+  "last_checked": "2026-11-23",
   "stop": 41400.0,
   "target_ema": 57571.0604,
   "target_2r": 80100.0,
   "days": 0,
-  "last_close": 56100.0,
-  "ret_now": 3.31
+  "last_close": 53700.0,
+  "ret_now": -1.1
  },
  {
   "ticker": "082740.KS",
   "name": "한화엔진",
   "entry": 26700.0,
   "entry_date": "2026-11-13",
-  "last_checked": "2026-11-20",
+  "last_checked": "2026-11-23",
   "stop": 23250.0,
   "target_ema": 32669.5234,
   "target_2r": 33600.0,
   "days": 0,
-  "last_close": 23850.0,
-  "ret_now": -10.67
+  "last_close": 21750.0,
+  "ret_now": -18.54
  },
  {
   "ticker": "079550.KS",
   "name": "LIG디펜스앤에어로스페이스",
   "entry": 351000.0,
   "entry_date": "2026-11-16",
-  "last_checked": "2026-11-20",
+  "last_checked": "2026-11-23",
   "stop": 280000.0,
   "target_ema": 446633.7886,
   "target_2r": 493000.0,
   "days": 0,
-  "last_close": 371000.0,
-  "ret_now": 5.7
+  "last_close": 348000.0,
+  "ret_now": -0.85
  },
  {
   "ticker": "064760.KQ",
   "name": "티씨케이",
   "entry": 187200.0,
   "entry_date": "2026-11-16",
-  "last_checked": "2026-11-20",
+  "last_checked": "2026-11-23",
   "stop": 134500.0,
   "target_ema": 200874.3383,
   "target_2r": 292600.0,
   "days": 0,
-  "last_close": 183000.0,
-  "ret_now": -2.24
+  "last_close": 167000.0,
+  "ret_now": -10.79
  },
  {
   "ticker": "034020.KS",
   "name": "두산에너빌리티",
   "entry": 44900.0,
   "entry_date": "2026-11-17",
-  "last_checked": "2026-11-20",
+  "last_checked": "2026-11-23",
   "stop": 42700.0,
   "target_ema": 55940.6959,
   "target_2r": 49300.0,
   "days": 0,
-  "last_close": 43800.0,
-  "ret_now": -2.45
+  "last_close": 40750.0,
+  "ret_now": -9.24
  },
  {
   "ticker": "327260.KQ",
   "name": "RF머트리얼즈",
   "entry": 27450.0,
   "entry_date": "2026-11-17",
-  "last_checked": "2026-11-20",
+  "last_checked": "2026-11-23",
   "stop": 20550.0,
   "target_ema": 33448.5972,
   "target_2r": 41250.0,
   "days": 0,
-  "last_close": 29150.0,
-  "ret_now": 6.19
+  "last_close": 26050.0,
+  "ret_now": -5.1
  },
  {
   "ticker": "281820.KS",
   "name": "케이씨텍",
   "entry": 77500.0,
   "entry_date": "2026-11-19",
-  "last_checked": "2026-11-20",
+  "last_checked": "2026-11-23",
   "stop": 49650.0,
   "target_ema": 79092.6985,
   "target_2r": 133200.0,
   "days": 0,
-  "last_close": 83600.0,
-  "ret_now": 7.87
+  "last_close": 80300.0,
+  "ret_now": 3.61
  },
  {
   "ticker": "440110.KQ",
   "name": "파두",
   "entry": 32200.0,
   "entry_date": "2026-11-19",
-  "last_checked": "2026-11-20",
+  "last_checked": "2026-11-23",
   "stop": 30925.0,
   "target_ema": 43905.2738,
   "target_2r": 34750.0,
   "days": 0,
-  "last_close": 32400.0,
-  "ret_now": 0.62
+  "last_close": 27750.0,
+  "ret_now": -13.82
  },
  {
   "ticker": "420770.KQ",
   "name": "기가비스",
   "entry": 75200.0,
   "entry_date": "2026-11-19",
-  "last_checked": "2026-11-20",
+  "last_checked": "2026-11-23",
   "stop": 59600.0,
   "target_ema": 87232.5754,
   "target_2r": 106400.0,
   "days": 0,
-  "last_close": 79800.0,
-  "ret_now": 6.12
+  "last_close": 70700.0,
+  "ret_now": -5.98
  },
  {
   "ticker": "010120.KS",
   "name": "LS ELECTRIC",
   "entry": 120800.0,
   "entry_date": "2026-11-20",
-  "last_checked": "2026-11-20",
+  "last_checked": "2026-11-23",
   "stop": 110000.0,
   "target_ema": 140297.5109,
   "target_2r": 142400.0,
-  "days": 0
+  "days": 0,
+  "last_close": 109700.0,
+  "ret_now": -9.19
  },
  {
   "ticker": "084370.KQ",
   "name": "유진테크",
   "entry": 80700.0,
   "entry_date": "2026-11-20",
-  "last_checked": "2026-11-20",
+  "last_checked": "2026-11-23",
   "stop": 65900.0,
   "target_ema": 95976.8013,
   "target_2r": 110300.0,
-  "days": 0
+  "days": 0,
+  "last_close": 71000.0,
+  "ret_now": -12.02
  }
 ]
