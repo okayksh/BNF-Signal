@@ -1,1 +1,13 @@
-[]
+[
+ {
+  "ticker": "MRVL",
+  "name": "MRVL",
+  "entry": 130.93,
+  "entry_date": "2026-11-25",
+  "last_checked": "2026-11-25",
+  "stop": 117.8,
+  "target_ema": 167.772,
+  "target_2r": 157.19,
+  "days": 0
+ }
+]
