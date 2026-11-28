@@ -4,10 +4,34 @@
   "name": "MRVL",
   "entry": 130.93,
   "entry_date": "2026-11-25",
-  "last_checked": "2026-11-25",
+  "last_checked": "2026-11-27",
   "stop": 117.8,
   "target_ema": 167.772,
   "target_2r": 157.19,
+  "days": 1,
+  "last_close": 140.54,
+  "ret_now": 7.34
+ },
+ {
+  "ticker": "SOXL",
+  "name": "SOXL",
+  "entry": 36.57,
+  "entry_date": "2026-11-27",
+  "last_checked": "2026-11-27",
+  "stop": 24.61,
+  "target_ema": 60.5821,
+  "target_2r": 60.49,
+  "days": 0
+ },
+ {
+  "ticker": "CONL",
+  "name": "CONL",
+  "entry": 1.695,
+  "entry_date": "2026-11-27",
+  "last_checked": "2026-11-27",
+  "stop": 1.32,
+  "target_ema": 2.7001,
+  "target_2r": 2.445,
   "days": 0
  }
 ]
